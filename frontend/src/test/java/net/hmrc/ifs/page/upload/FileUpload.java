@@ -22,7 +22,7 @@ public class FileUpload {
 
     @Step
     public void selectFile(String fileName,String size) {
-        getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//        getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         generateFile(fileName,size);
         System.out.println(ById(browse_button_id).getText());
         upload(ById(browse_button_id), String.valueOf(file.getAbsoluteFile()));

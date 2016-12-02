@@ -1,5 +1,6 @@
-package net.hmrc.ifs.page.login;
+package net.hmrc.ifs.config;
 
+import net.hmrc.ifs.page.login.LoginPage;
 import net.hmrc.ifs.page.upload.FileUpload;
 import net.hmrc.ifs.page.upload.VerifyMetaData;
 import net.thucydides.core.annotations.Step;

@@ -3,7 +3,7 @@ package net.hmrc.ifs.steps.upload;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.hmrc.ifs.config.MetaData;
-import net.hmrc.ifs.page.login.NavigateToPage;
+import net.hmrc.ifs.config.NavigateToPage;
 
 import java.util.List;
 

@@ -1,11 +1,8 @@
 package net.hmrc.ccs;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.java.Before;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
-
-import static net.hmrc.ccs.config.BaseUrl.setUp;
 
 
 //@RunWith(Cucumber.class)
@@ -16,8 +13,8 @@ import static net.hmrc.ccs.config.BaseUrl.setUp;
 public class RunCcsAT {
 
 
-    @Before
-    public void GetBaseURL() {
-        setUp();
-    }
+//    @Before
+//    public void GetBaseURL(String endPoint) {
+//        setUp(endPoint);
+//    }
 }

@@ -12,7 +12,7 @@ Feature: Verify file upload from CSS to DocM
 
   Scenario: File Upload
 
-    Given I want to upload a file in DocM-
-    When I Upload a File
+    Given I want to upload a file in DocM-document/upload
+    When I Upload a File postFile.jpg of .05 GB
     Then the file should be available in DocM
 

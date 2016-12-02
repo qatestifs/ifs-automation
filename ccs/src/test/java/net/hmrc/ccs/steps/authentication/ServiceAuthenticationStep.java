@@ -11,7 +11,7 @@ public class ServiceAuthenticationStep {
 
   @When("I send a get request to-(.*)")
     public void sendGetRequest(String url){
-      setUp();
+      setUp(url);
     given().when().get(url);
   }
 

@@ -31,7 +31,7 @@ public class FileGenerator {
             writer.println();
             //Check to see if the current size is what we want it to be
             if (++counter == 20000) {
-                System.out.printf("Size: %.3f GB%n", file.length() / 1e9);
+//                System.out.printf("Size: %.3f GB%n", file.length() / 1e9);
                 if (file.length() >= wantedSize * 1e9) {
                     writer.close();
                     break;

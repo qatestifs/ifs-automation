@@ -12,5 +12,5 @@ Feature: CCS Access Test
 
   Scenario: CCS Server Access
 
-    When I send a get request to-
+    When I send a get request to-document/upload
     Then I should see the response status as 200

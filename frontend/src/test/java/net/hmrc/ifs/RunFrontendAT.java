@@ -5,7 +5,6 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-
 import static net.common.utils.helper.SeleniumWrapper.getDriver;
 
 

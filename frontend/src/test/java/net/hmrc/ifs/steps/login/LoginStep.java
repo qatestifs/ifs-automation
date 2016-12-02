@@ -4,9 +4,8 @@ package net.hmrc.ifs.steps.login;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.hmrc.ifs.page.login.NavigateToPage;
+import net.hmrc.ifs.config.NavigateToPage;
 
-import static net.common.utils.helper.SeleniumWrapper.getUrl;
 import static net.common.utils.helper.SeleniumWrapper.visit;
 
 
@@ -25,8 +24,8 @@ public class LoginStep {
 
    @Given("I want to upload a file")
     public void getPage(){
-        getUrl();
-        loginVerification.userLogin();
+//        getUrl();
+//        loginVerification.userLogin();
     }
 
     @When("I submit my user name as (.*) and password as (.*)")

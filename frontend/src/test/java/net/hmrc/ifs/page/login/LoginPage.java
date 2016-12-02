@@ -45,7 +45,7 @@ public class LoginPage {
 
     @Step
 //    @Screenshots(forEachAction=true)
-    protected void verifyInvalidLogin(String loginUnSuccess) {
+    public void verifyInvalidLogin(String loginUnSuccess) {
         getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         System.out.println(ById(loginErrorMessage_id).getText());
         assertThat(ById(loginErrorMessage_id).getText(), is(loginUnSuccess));
@@ -54,7 +54,7 @@ public class LoginPage {
     }
 
     @Step
-    protected void verifyValidLogin(String loginSuccess) {
+    public void verifyValidLogin(String loginSuccess) {
             System.out.println(ById(logOutButton_id).getText());
         assertThat(ById(dashBoard_id).getText(),is(loginSuccess));
         info("user is successfully logs in-" + loginSuccess);
@@ -73,7 +73,7 @@ public class LoginPage {
     }
 
     @Step
-    protected void enterUserDetails(){
+    public void enterUserDetails(){
         type((ById(userId_id)),getValueFromPropertiesFile(USER_DETAILS, GET_USERNAME));
         type((ById(password_id)),getValueFromPropertiesFile(USER_DETAILS, GET_PASSWORD));
         info("user enters the login credentials to submit");

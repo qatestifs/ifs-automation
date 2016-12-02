@@ -153,8 +153,9 @@ formatter.match({
   "location": "LoginStep.visitPage(String)"
 });
 formatter.result({
-  "duration": 13457584948,
-  "status": "passed"
+  "duration": 9719396889,
+  "error_message": "org.openqa.selenium.WebDriverException: Error loading page\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)\r\n\tat net.common.utils.helper.SeleniumWrapper.visit(SeleniumWrapper.java:70)\r\n\tat net.hmrc.ifs.steps.login.LoginStep.visitPage(LoginStep.java:22)\r\n\tat ✽.Given I visit frontend login page- http://localhost:4200/(login/Login.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -170,8 +171,7 @@ formatter.match({
   "location": "LoginStep.submitLoginDetaisl(String,String)"
 });
 formatter.result({
-  "duration": 1883876700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -187,8 +187,7 @@ formatter.match({
   "location": "LoginStep.loginPage(String,String)"
 });
 formatter.result({
-  "duration": 106651938,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 20,
@@ -253,8 +252,9 @@ formatter.match({
   "location": "LoginStep.visitPage(String)"
 });
 formatter.result({
-  "duration": 1491017224,
-  "status": "passed"
+  "duration": 1618505931,
+  "error_message": "org.openqa.selenium.WebDriverException: Error loading page\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)\r\n\tat net.common.utils.helper.SeleniumWrapper.visit(SeleniumWrapper.java:70)\r\n\tat net.hmrc.ifs.steps.login.LoginStep.visitPage(LoginStep.java:22)\r\n\tat ✽.Given I visit frontend login page- http://localhost:4200/(login/Login.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -270,8 +270,7 @@ formatter.match({
   "location": "LoginStep.submitLoginDetaisl(String,String)"
 });
 formatter.result({
-  "duration": 142262723,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -287,8 +286,7 @@ formatter.match({
   "location": "LoginStep.loginPage(String,String)"
 });
 formatter.result({
-  "duration": 2196891855,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.uri("upload/FileUploadConfirmation.feature");
 formatter.feature({
@@ -347,7 +345,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 1615452677,
+  "duration": 1224027,
   "status": "passed"
 });
 formatter.match({
@@ -364,8 +362,9 @@ formatter.match({
   "location": "FileUploadStep.upload(String,String)"
 });
 formatter.result({
-  "duration": 2706784820,
-  "status": "passed"
+  "duration": 2372616901,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.FileUploadStep.upload(FileUploadStep.java:22)\r\n\tat ✽.When I upload a file UploadConfirmationFile.txt of .05 GB(upload/FileUploadConfirmation.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -377,8 +376,7 @@ formatter.match({
   "location": "FileUploadStep.uploadConfirmationForUpload(String)"
 });
 formatter.result({
-  "duration": 2075215596,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.uri("upload/SelectFile.feature");
 formatter.feature({
@@ -437,7 +435,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 1630552622,
+  "duration": 993375,
   "status": "passed"
 });
 formatter.match({
@@ -454,8 +452,9 @@ formatter.match({
   "location": "SelectFileStep.selectFile(String,String)"
 });
 formatter.result({
-  "duration": 2123822899,
-  "status": "passed"
+  "duration": 1964378970,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.SelectFileStep.selectFile(SelectFileStep.java:23)\r\n\tat ✽.When I select a file SelectFileToUpload.pdf of .04 GB(upload/SelectFile.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -467,8 +466,7 @@ formatter.match({
   "location": "SelectFileStep.fileShouldBeAvailable(String)"
 });
 formatter.result({
-  "duration": 55352421,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 17,
@@ -507,8 +505,9 @@ formatter.match({
   "location": "SelectFileStep.getMetaDataDetails(MetaData\u003e)"
 });
 formatter.result({
-  "duration": 2215613108,
-  "status": "passed"
+  "duration": 22970767,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #customerId\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dcustomerId}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.VerifyMetaData.setCustomerId(VerifyMetaData.java:20)\r\n\tat net.hmrc.ifs.page.upload.VerifyMetaData.verifyMetaData(VerifyMetaData.java:40)\r\n\tat net.hmrc.ifs.steps.upload.SelectFileStep.getMetaDataDetails(SelectFileStep.java:34)\r\n\tat ✽.Then I should see the following metadata details(upload/SelectFile.feature:19)\r\n",
+  "status": "failed"
 });
 formatter.uri("upload/UpdateFile.feature");
 formatter.feature({
@@ -567,7 +566,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 1804715154,
+  "duration": 804315,
   "status": "passed"
 });
 formatter.match({
@@ -584,8 +583,9 @@ formatter.match({
   "location": "FileUploadStep.upload(String,String)"
 });
 formatter.result({
-  "duration": 4425127143,
-  "status": "passed"
+  "duration": 3772376309,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.FileUploadStep.upload(FileUploadStep.java:22)\r\n\tat ✽.When I upload a file FileToUpload.pdf of .09 GB(upload/UpdateFile.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -597,8 +597,7 @@ formatter.match({
   "location": "FileUploadStep.uploadConfirmationForUpload(String)"
 });
 formatter.result({
-  "duration": 2101605118,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 17,
@@ -627,7 +626,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 1938586858,
+  "duration": 854550,
   "status": "passed"
 });
 formatter.match({
@@ -644,8 +643,9 @@ formatter.match({
   "location": "FileUploadStep.upload(String,String)"
 });
 formatter.result({
-  "duration": 32528132385,
-  "status": "passed"
+  "duration": 30555137944,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.FileUploadStep.upload(FileUploadStep.java:22)\r\n\tat ✽.When I upload a file FIleUpdate.pdf of .69 GB(upload/UpdateFile.feature:19)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -657,8 +657,7 @@ formatter.match({
   "location": "FileUploadStep.uploadConfirmationForUpload(String)"
 });
 formatter.result({
-  "duration": 2083911271,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.uri("upload/UploadFile.feature");
 formatter.feature({
@@ -839,7 +838,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 1510900925,
+  "duration": 1004177,
   "status": "passed"
 });
 formatter.match({
@@ -856,15 +855,15 @@ formatter.match({
   "location": "FileUploadStep.upload(String,String)"
 });
 formatter.result({
-  "duration": 649562867,
-  "status": "passed"
+  "duration": 447961017,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.FileUploadStep.upload(FileUploadStep.java:22)\r\n\tat ✽.When I upload a file FileToUpload.doc of .00 GB(upload/UploadFile.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "SelectFileStep.uploadAFile()"
 });
 formatter.result({
-  "duration": 2054667484,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 19,
@@ -919,7 +918,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 1813874297,
+  "duration": 985812,
   "status": "passed"
 });
 formatter.match({
@@ -936,15 +935,15 @@ formatter.match({
   "location": "FileUploadStep.upload(String,String)"
 });
 formatter.result({
-  "duration": 943178854,
-  "status": "passed"
+  "duration": 450297796,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.FileUploadStep.upload(FileUploadStep.java:22)\r\n\tat ✽.When I upload a file FileToUpload.html of .01 GB(upload/UploadFile.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "SelectFileStep.uploadAFile()"
 });
 formatter.result({
-  "duration": 2043946707,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 20,
@@ -999,7 +998,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 1685042930,
+  "duration": 1157047,
   "status": "passed"
 });
 formatter.match({
@@ -1016,15 +1015,15 @@ formatter.match({
   "location": "FileUploadStep.upload(String,String)"
 });
 formatter.result({
-  "duration": 1205787394,
-  "status": "passed"
+  "duration": 977166437,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.FileUploadStep.upload(FileUploadStep.java:22)\r\n\tat ✽.When I upload a file FileToUpload.ps of .02 GB(upload/UploadFile.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "SelectFileStep.uploadAFile()"
 });
 formatter.result({
-  "duration": 2069350957,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 21,
@@ -1079,7 +1078,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 1694352780,
+  "duration": 1134359,
   "status": "passed"
 });
 formatter.match({
@@ -1096,15 +1095,15 @@ formatter.match({
   "location": "FileUploadStep.upload(String,String)"
 });
 formatter.result({
-  "duration": 1257767526,
-  "status": "passed"
+  "duration": 882153078,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.FileUploadStep.upload(FileUploadStep.java:22)\r\n\tat ✽.When I upload a file FileToUpload.exe of .023 GB(upload/UploadFile.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "SelectFileStep.uploadAFile()"
 });
 formatter.result({
-  "duration": 2269458451,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 22,
@@ -1159,7 +1158,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 1643790597,
+  "duration": 1664807,
   "status": "passed"
 });
 formatter.match({
@@ -1176,15 +1175,15 @@ formatter.match({
   "location": "FileUploadStep.upload(String,String)"
 });
 formatter.result({
-  "duration": 1514721555,
-  "status": "passed"
+  "duration": 1436189612,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.FileUploadStep.upload(FileUploadStep.java:22)\r\n\tat ✽.When I upload a file FileToUpload.pdf of .034 GB(upload/UploadFile.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "SelectFileStep.uploadAFile()"
 });
 formatter.result({
-  "duration": 2048212438,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 23,
@@ -1239,7 +1238,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 2137642639,
+  "duration": 1143002,
   "status": "passed"
 });
 formatter.match({
@@ -1256,15 +1255,15 @@ formatter.match({
   "location": "FileUploadStep.upload(String,String)"
 });
 formatter.result({
-  "duration": 1935200525,
-  "status": "passed"
+  "duration": 1933265128,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.FileUploadStep.upload(FileUploadStep.java:22)\r\n\tat ✽.When I upload a file FileToUpload.mp3 of .04 GB(upload/UploadFile.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "SelectFileStep.uploadAFile()"
 });
 formatter.result({
-  "duration": 2059102289,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 24,
@@ -1319,7 +1318,7 @@ formatter.match({
   "location": "LoginStep.getPage()"
 });
 formatter.result({
-  "duration": 1737055472,
+  "duration": 1141381,
   "status": "passed"
 });
 formatter.match({
@@ -1336,14 +1335,14 @@ formatter.match({
   "location": "FileUploadStep.upload(String,String)"
 });
 formatter.result({
-  "duration": 3049384070,
-  "status": "passed"
+  "duration": 2755448434,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: #browseFile\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027Ajay\u0027, ip: \u0027192.168.0.9\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_51\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, firefoxOptions\u003d{args\u003d[], prefs\u003d{}}, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d7032, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop}]\nSession ID: 657dbf6e-eb33-4dda-9de3-9d0cce70f090\n*** Element info: {Using\u003did, value\u003dbrowseFile}\r\n\tat sun.reflect.GeneratedConstructorAccessor38.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat net.common.utils.locator.LocateElement.ById(LocateElement.java:18)\r\n\tat net.hmrc.ifs.page.upload.FileUpload.selectFile(FileUpload.java:27)\r\n\tat net.hmrc.ifs.steps.upload.FileUploadStep.upload(FileUploadStep.java:22)\r\n\tat ✽.When I upload a file FileToUpload.pdf of .07 GB(upload/UploadFile.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "SelectFileStep.uploadAFile()"
 });
 formatter.result({
-  "duration": 2044248123,
-  "status": "passed"
+  "status": "skipped"
 });
 });
